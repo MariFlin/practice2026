@@ -34,7 +34,7 @@ public static class BenchmarkInvestigator
         List<double> executionTimes = new List<double>();
 
         StringBuilder report = new StringBuilder();
-        report.AppendLine("=== ОТЧЕТ ПО ИССЛЕДОВАНИЮ ПРОИЗВОДИТЕЛЬНОСТИ ===");
+        report.AppendLine("ОТЧЕТ ПО ИССЛЕДОВАНИЮ ПРОИЗВОДИТЕЛЬНОСТИ");
         report.AppendLine($"Выбранный размер шага: {selectedStep}");
 
         for (int threads = 1; threads <= maxThreadsToTest; threads++)
